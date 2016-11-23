@@ -1,0 +1,44 @@
+@charset "utf-8";
+ div#clock a { 
+	text-decoration:none; 
+	color:#00c6ff;
+}
+div#clock h1 {
+	font: 4em normal Arial, Helvetica, sans-serif;
+	padding: 20px;	margin: 0;
+	text-align:center;
+}
+div#clock h1 small{
+	font: 0.2em normal  Arial, Helvetica, sans-serif;
+	text-transform:uppercase; letter-spacing: 0.2em; line-height: 5em;
+	display: block;
+}
+div#clock h2 {
+    font-weight:700;
+    color:#000;
+    font-size:10px;
+}
+div#clock h2, div#clock p {
+	margin-bottom:10px;
+}
+div#clock .container {width: 100%; margin: 0; overflow: hidden; background: #222}
+div#clock .clock {width:100%; margin:0 auto; color:#FFF; }
+div#clock #Date { font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; font-size:36px; text-align:center; text-shadow:0 0 5px #00c6ff; }
+div#clock ul { width:100%; margin:0 auto; padding:0px; list-style:none; text-align:center; }
+div#clock ul li { display:inline; font-size:5em; text-align:center; font-family:'BebasNeueRegular', Arial, Helvetica, sans-serif; text-shadow:0 0 5px #00c6ff; }
+div#clock #point { position:relative; -moz-animation:mymove 1s ease infinite; -webkit-animation:mymove 1s ease infinite; padding-left:10px; padding-right:10px; }
+
+@-webkit-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}
+
+
+@-moz-keyframes mymove 
+{
+0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+50% {opacity:0; text-shadow:none; }
+100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; }	
+}

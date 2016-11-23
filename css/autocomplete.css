@@ -1,0 +1,38 @@
+#project-label {
+		display: block;
+		font-weight: bold;
+		margin-bottom: 1em;
+	}
+	#project-icon {
+		float: left;
+		height: 20px;
+		width: 32px;
+	}
+	#project-description {
+		margin: 0;
+		padding: 0;
+	}
+			#searchid
+	{
+	}
+	#resultx
+	{
+		position:absolute;
+		width:315px;
+		max-height: 200px;
+		padding:10px;
+		display:none;
+		margin-top:-1px;
+		border-top:0px;
+		overflow:auto;
+		border:none;
+		box-shadow: 0 0 5px #999;
+		background-color: white;
+	}
+.show:hover{color: #FFF}
+	.show
+	{
+		padding:1px; 
+		border-bottom:1px #ddd dotted; 
+		height:50px;
+	}

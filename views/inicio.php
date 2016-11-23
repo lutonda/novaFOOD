@@ -1,0 +1,1 @@
+<iframe src="views/start/inicio.php" scrolling="auto" frameborder="0"></iframe>
